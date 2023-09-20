@@ -1,12 +1,21 @@
 /** @type {import('tailwindcss').Config}*/
 const config = {
-	content: ['./src/**/*.{html,js,svelte,ts}'],
+  content: ['./src/**/*.{html,js,svelte,ts}'],
 
-	theme: {
-		extend: {}
-	},
+  theme: {
+    extend: {
+      fontFamily: {
+        newSpirit: ['New Spirit'],
+        gilroy: ['Gilroy'],
+        gilroyMedium: ['Gilroy Medium']
+      },
+      colors: {
+        yellow: '#F5EC07'
+      }
+    }
+  },
 
-	plugins: []
+  plugins: []
 };
 
 module.exports = config;
