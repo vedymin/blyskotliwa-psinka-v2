@@ -4,13 +4,17 @@ const config = {
 
   theme: {
     extend: {
+      fontSize: {
+        '18': '18px',
+      },
       fontFamily: {
         newSpirit: ['New Spirit'],
         gilroy: ['Gilroy'],
         gilroyMedium: ['Gilroy Medium']
       },
       colors: {
-        yellow: '#F5EC07'
+        yellow: '#F5EC07',
+        blue: '#067CA8'
       }
     }
   },
