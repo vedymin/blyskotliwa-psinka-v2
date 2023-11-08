@@ -30,10 +30,13 @@
           tracking-wider shadow-button transition-all hover:shadow-button-hover active:scale-95 active:shadow-button
           xl:left-96 xl:top-72 xl:text-sm xl:hover:scale-105 xl:hover:bg-gold xl:active:scale-100"
       >zajęcia grupowe</button>
-    <button
-      class="h-[50px] w-[210px] rounded-full bg-white font-gilroy
+    <a href='/szkolenia'>
+      <button
+        class="h-[50px] w-[210px] rounded-full bg-white font-gilroy
           tracking-wider shadow-button transition-all hover:shadow-button-hover active:scale-95 active:shadow-button
           xl:left-96 xl:top-72 xl:text-sm xl:hover:scale-105 xl:hover:bg-gold xl:active:scale-100"
-      >zajęcia indywidualne</button>
+      >
+        zajęcia indywidualne</button>
+    </a>
   </div>
 </div>
