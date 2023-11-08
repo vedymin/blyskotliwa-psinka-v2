@@ -13,15 +13,15 @@
 
 <div class="bg-gray-100 border-black">
   <div
-    class="relative m-auto w-[426px] overflow-hidden bg-white shadow-xl xl:w-[1280px]">
+    class="relative m-auto w-[426px] overflow-hidden bg-white xl:w-[1280px]">
     <LandingSection></LandingSection>
     <HotelSection></HotelSection>
     <SzkoleniaSection></SzkoleniaSection>
     <BehawiorystaSection></BehawiorystaSection>
     <CtaSection></CtaSection>
     <ContactSection></ContactSection>
-    <FooterSection></FooterSection>
   </div>
+  <FooterSection></FooterSection>
 </div>
 
 <style>

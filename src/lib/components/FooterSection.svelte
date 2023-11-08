@@ -6,7 +6,7 @@
 		modal = true;
 	}
 </script>
-<footer id="footer" class="flex w-[426px] xl:w-[1280px] flex-col items-center bg-gray">
+<footer id="footer" class="flex w-full  flex-col items-center bg-gray">
 	<div class='flex flex-col xl:flex-row xl:justify-between xl:w-full xl:p-10 xl:items-baseline'>
 		<div class="py-8 font-newSpirit text-xl xl:py-0">Błyskotliwa Psinka</div>
 		<nav
