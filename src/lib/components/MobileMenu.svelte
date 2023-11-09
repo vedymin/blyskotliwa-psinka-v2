@@ -2,6 +2,7 @@
 	import { fly } from 'svelte/transition';
 	import MenuItem from '$lib/components/MenuItem.svelte';
 	import { cubicInOut } from 'svelte/easing';
+	import NavigationMenu from '$lib/components/NavigationMenu.svelte';
 
 	export let mobileMenuIsShown = true;
 
@@ -32,11 +33,7 @@
 		<nav
 			class='flex flex-col items-start font-gilroyMedium gap-8 tracking-wider text-xl pb-8 pl-16 mt-48'
 			on:click={closeMenu}>
-			<MenuItem href='#hotel' text='hotel'></MenuItem>
-			<MenuItem href='#szkolenia' text='szkolenia'></MenuItem>
-			<MenuItem href='#behawiorysta' text='behawiorysta'></MenuItem>
-			<!--      <MenuItem href="#galeria" text="galeria"></MenuItem>-->
-			<MenuItem href='#kontakt' text='kontakt'></MenuItem>
+			<NavigationMenu/>
 		</nav>
 	</div>
 {/if}

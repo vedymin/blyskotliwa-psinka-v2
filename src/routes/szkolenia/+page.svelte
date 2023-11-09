@@ -5,8 +5,8 @@
 			<p class=''>indywidualne</p>
 		</div>
 		<div
-			class='aspect-auto h-[200px] xl:h-[400px] w-[400px] mt-12 border-black bg-contain bg-center bg-no-repeat '
+			class='aspect-auto h-[200px] xl:h-[400px] xl:w-[400px] w-[300px] mt-12 border-black bg-contain bg-center bg-no-repeat '
 			style="background-image: url('/img/dog-szkolenia.webp'); " />
 	</div>
-	<div class='flex-1 border-black border'>test</div>
+	<div class='flex-1 border-black border mt-10 xl:mt-0'>test</div>
 </div>
