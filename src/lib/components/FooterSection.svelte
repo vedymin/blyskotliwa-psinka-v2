@@ -1,6 +1,7 @@
 <script>
 	import MenuItem from '$lib/components/MenuItem.svelte';
 	import Modal from '$lib/components/Modal.svelte';
+	import NavigationMenu from '$lib/components/NavigationMenu.svelte';
 
 	let modal = false;
 
@@ -13,9 +14,8 @@
 		<div class='py-8 font-newSpirit text-xl xl:py-0'>Błyskotliwa Psinka</div>
 		<nav
 			class='flex flex-col xl:flex-row items-center gap-3 xl:gap-12 xl:text-base  pb-8 xl:pb-0 font-gilroyMedium text-xl tracking-wider'>
-			<MenuItem href='#hotel' text='hotel'></MenuItem>
-			<MenuItem href='#szkolenia' text='szkolenia'></MenuItem>
-			<MenuItem href='#behawiorysta' text='behawiorysta'></MenuItem>
+			<NavigationMenu />
+
 			<!--			<MenuItem href="#galeria" text="galeria"></MenuItem>-->
 			<!--			<MenuItem href="#kontakt" text="kontakt"></MenuItem>-->
 			<MenuItem text='dofinansowanie' noSmooth on:click={showModal}
