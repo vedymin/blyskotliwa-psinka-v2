@@ -1,3 +1,7 @@
+<script>
+	import { goto } from '$app/navigation';
+</script>
+
 <div id='hotel' class='relative h-[610px] pt-10 xl:h-[800px]'>
 	<div
 		class='absolute left-10 z-10 flex flex-col border-black font-newSpirit text-4xl leading-tight xl:invisible'>
@@ -13,6 +17,7 @@
 		<div class='pl-16'>w Niemodinie!</div>
 	</div>
 	<button
+		on:click={() => goto('/hotel')}
 		class='absolute left-12 top-60 h-[50px] w-[170px] rounded-full bg-white font-gilroy
           tracking-wider shadow-button transition-all hover:shadow-button-hover active:scale-95 active:shadow-button
           xl:left-96 xl:top-72 xl:text-sm xl:hover:scale-105 xl:hover:bg-blue xl:active:scale-100'

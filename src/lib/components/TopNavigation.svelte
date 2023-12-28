@@ -1,18 +1,20 @@
 <script>
 
 	import MobileMenu from '$lib/components/MobileMenu.svelte';
-	import MenuItem from '$lib/components/MenuItem.svelte';
 	import { page } from '$app/stores';
 	import NavigationMenu from '$lib/components/NavigationMenu.svelte';
+	import { goto } from '$app/navigation';
 
 	let mobileMenuIsShown = false;
 	$: homePage = $page.url.pathname === '/';
 </script>
 
 <MobileMenu bind:mobileMenuIsShown></MobileMenu>
-<div
-	class="absolute left-4 top-14 border-black bg-cover bg-center xl:left-16 {homePage ? 'top-14 h-32 w-24 xl:h-40 xl:w-32' : 'top-4 h-32 w-24 xl:h-20 xl:w-12'}"
-	style="background-image: url('/img/logo-min.png'); " />
+<a href='/'>
+	<div
+		class="cursor-pointer z-10 absolute left-4 top-14 border-black bg-cover bg-center xl:left-16 {homePage ? 'top-14 h-32 w-24 xl:h-40 xl:w-32' : 'top-4 h-32 w-24 xl:h-20 xl:w-12'}"
+		style="background-image: url('/img/logo-min.png'); " />
+</a>
 <nav
 	class='invisible xl:visible flex flex-row gap-20 font-gilroyMedium justify-end w-full p-10 text-xl'>
 	<NavigationMenu />

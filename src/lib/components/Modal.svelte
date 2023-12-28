@@ -20,7 +20,7 @@
   }} />
 
 {#if shown}
-	<div class='modal-wrapper z-50' transition:fly={{ y: 800, duration: 1000 }}>
+	<div class='modal-wrapper z-50' transition:fly={{ y: 800, duration: 1000 }} on:click|self={hideModal}>
 		<div class='modal relative'>
       <span
 				class='cursor-pointer text-4xl absolute top-0 right-2'

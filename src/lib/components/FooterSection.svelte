@@ -11,7 +11,9 @@
 </script>
 <footer id='footer' class='flex w-full flex-col items-center bg-gray mt-auto'>
 	<div class='flex flex-col xl:flex-row xl:justify-between xl:w-full xl:p-10 xl:items-baseline'>
-		<div class='py-8 font-newSpirit text-xl xl:py-0'>Błyskotliwa Psinka</div>
+		<a href='/'>
+			<div class='py-8 font-newSpirit text-xl xl:py-0'>Błyskotliwa Psinka</div>
+		</a>
 		<nav
 			class='flex flex-col xl:flex-row items-center gap-3 xl:gap-12 xl:text-base  pb-8 xl:pb-0 font-gilroyMedium text-xl tracking-wider'>
 			<NavigationMenu />
