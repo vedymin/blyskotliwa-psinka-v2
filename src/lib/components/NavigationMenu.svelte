@@ -5,4 +5,5 @@
 <MenuItem href='/hotel' text='hotel'></MenuItem>
 <MenuItem href='/szkolenia' text='szkolenia'></MenuItem>
 <MenuItem href='/#behawiorysta' text='behawiorysta' noSmooth='true'></MenuItem>
+<MenuItem href='/wypozyczalnia' text='wypożyczalnia' noSmooth='true'></MenuItem>
 <MenuItem href='/#kontakt' text='kontakt' noSmooth='true'></MenuItem>
