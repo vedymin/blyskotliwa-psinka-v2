@@ -27,7 +27,7 @@
 	}
 </script>
 
-<div class='border-black p-10 px-20 flex xl:flex-row flex-col'>
+<div class='border-black p-10 px-20 flex xl:flex-row flex-col text-center xl:text-left'>
 	<div class='flex-1'>
 		<div class='flex flex-col font-newSpirit xl:text-6xl text-4xl absolute items-center border-black ml-20'>
 			<p class=''>Hotel</p>
@@ -36,7 +36,7 @@
 			class='aspect-auto h-[200px] xl:h-[400px] xl:w-[400px] w-[300px] mt-2 border-black bg-contain bg-center bg-no-repeat '
 			style="background-image: url('/img/dog-szkolenia.webp'); " />
 	</div>
-	<div class='flex-1 border-black mt-10 xl:mt-0'>
+	<div class='flex-1 border-black mt-10 xl:mt-0 text-center xl:text-left'>
 		<h1 class='font-gilroySemiBold text-2xl pb-2'>Zapraszamy do naszego hotelu dla psów! 🐾 </h1>
 		<p class='pb-4'>Wybierasz się na wakacje, delegację lub weekend? Potrzebujesz odpowiedniej opieki dla Twojego psa?
 			Sprawdź co
@@ -65,7 +65,7 @@
 			pasjonatów oraz trenerów psów, dostosowanej do jego unikalnych potrzeb. </p>
 	</div>
 </div>
-<div class='mx-20'>
+<div class='mx-20 text-center xl:text-left'>
 	<h1 class='font-gilroySemiBold text-2xl pb-4'>Jak przygotować psa do hotelu?</h1>
 	<p class='pb-2'>
 		Zanim oddasz psa do naszego hotelu, upewnij się, że spakowałeś wszystko, co sprawi, że twój psiak poczuje się jak w
@@ -105,7 +105,7 @@
 	</p>
 
 	<h1 class='font-gilroySemiBold text-xl'>Podsumowanie, czyli co spakować w skrócie:</h1>
-	<ul class='list-disc ml-6'>
+	<ul class='list-disc ml-6 text-left'>
 		<li>Książeczka zdrowia potwierdzająca aktualne szczepienia przeciwko wściekliźnie oraz chorobom zakaźnym, a także odrobaczenie lub badanie kału na obecność pasożytów.</li>
 		<li>Zabezpieczenie przeciwko pasożytom zewnętrznym</li>
 		<li>Odpowiednią ilość karmy</li>

@@ -8,23 +8,23 @@
 
 </script>
 <div class='border-black p-10 px-20 flex xl:flex-row flex-col'>
-	<div class='flex-1'>
+	<div class='flex-1 flex justify-center'>
 		<div class='flex flex-col font-newSpirit xl:text-6xl text-4xl absolute items-center border-black ml-2'>
 			<p class=''>Dogtrekking i </p>
 			<p class=''>Canicross</p>
 		</div>
 		<div
-			class='aspect-auto h-[200px] xl:h-[400px] xl:w-[400px] w-[300px] mt-32 border-black bg-cover bg-[-300px_center] bg-no-repeat rounded-full'
+			class='aspect-auto h-[200px] xl:h-[400px] xl:w-[400px] w-[200px] mt-32 border-black bg-cover bg-[-150px_center] xl:bg-[-300px_center] bg-no-repeat rounded-full'
 			style="background-image: url({canicross}); " />
 	</div>
-	<div class='flex-1 border-black mt-10 xl:mt-0'>
+	<div class='flex-1 border-black mt-10 xl:mt-0 text-center xl:text-left'>
 		<p class='pb-4'>Witaj w naszej wypożyczalni sprzętu sportowego, gdzie dogtrekking i
 			canicross stają się dostępne dla Ciebie i Twojego psa bez konieczności inwestowania w pełny zestaw. </p>
 		<h1 class='font-gilroySemiBold text-2xl pb-2'>Dogtrekking</h1>
 		<p class='pb-4'>Dogtrekking to wyjątkowa forma aktywności, która pozwala poruszać się z psem przypiętym na uprzęży w
-			terenie leśnym lub górskim. Jest to marsz na orientację, a podczas uprawianie tej dyscypliny można spacerować lub
+			terenie leśnym lub górskim. Jest to marsz na orientację, a podczas uprawiania tej dyscypliny można spacerować lub
 			biegać. Nasze pasy biodrowe i szelki sled doskonale sprawdzają się podczas tego sportu, gwarantując wygodę i
-			bezpieczeństwo.Wypożycz nasz sprzęt i odkryjcie razem nowe szlaki!</p>
+			bezpieczeństwo. Wypożycz nasz sprzęt i odkryjcie razem nowe szlaki!</p>
 		<h1 class='font-gilroySemiBold text-2xl pb-2'>Canicross</h1>
 		<p class='pb-4'>Canicross to dynamiczna dyscyplina sportowa z kategorii psich zaprzęgów, polegająca na biegu z psem,
 			upiętym na smyczy z amortyzatorem, łączącym się z pasem biodrowym. Twój pies biegnie z przodu, wspomagając cię
@@ -38,8 +38,8 @@
 			się sportem wraz z wiernym towarzyszem!</p>
 	</div>
 </div>
-<div class='mx-20'>
-	<h1 class='font-gilroySemiBold text-2xl pb-4'>Poznaj Bory Niemodlińskie!</h1>
+<div class='mx-20 text-center xl:text-left'>
+	<h1 class='font-gilroySemiBold text-2xl pb-4 '>Poznaj Bory Niemodlińskie!</h1>
 	<p class='pb-2'>Zapraszamy do fascynującej podróży po Borach Niemodlińskich, gdzie stworzyliśmy specjalne trasy
 		spacerowe, z myślą o psich przyjaciołach i ich opiekunach. Nasze szlaki ukazują nie tylko urokliwe zakątki natury,
 		ale także bogactwo dziedzictwa naszego regionu. </p>
