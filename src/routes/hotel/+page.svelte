@@ -13,13 +13,13 @@
 	}
 
 	let images = [
-		'img/hotel-1.jpg',
-		'img/hotel-2.jpg',
-		'img/hotel-3.jpg',
-		'img/hotel-4.jpg',
-		'img/hotel-5.jpg',
-		'img/hotel-7.jpg',
-		'img/hotel-6.jpg'
+		'img/hotel-1.webp',
+		'img/hotel-2.webp',
+		'img/hotel-3.webp',
+		'img/hotel-4.webp',
+		'img/hotel-5.webp',
+		'img/hotel-7.webp',
+		'img/hotel-6.webp'
 	];
 
 	function showModal() {
