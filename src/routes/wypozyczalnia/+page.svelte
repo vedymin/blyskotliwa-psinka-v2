@@ -1,9 +1,9 @@
 <script>
-	import stawPustelnika from '$lib/assets/trasy/pustelnik.png';
-	import lipno from '$lib/assets/trasy/lipno.png';
-	import zloteBagna from '$lib/assets/trasy/zlote_bagna.png';
-	import sangow from '$lib/assets/trasy/sangow.png';
-	import canicross from '$lib/assets/canicross2.jpg'
+	import stawPustelnika from '$lib/assets/trasy/pustelnik.webp';
+	import lipno from '$lib/assets/trasy/lipno.webp';
+	import zloteBagna from '$lib/assets/trasy/zlote_bagna.webp';
+	import sangow from '$lib/assets/trasy/sangow.webp';
+	import canicross from '$lib/assets/canicross2.webp'
 	import RouteDetails from '$lib/components/RouteDetails.svelte';
 
 </script>
@@ -27,7 +27,7 @@
 			bezpieczeństwo. Wypożycz nasz sprzęt i odkryjcie razem nowe szlaki!</p>
 		<h1 class='font-gilroySemiBold text-2xl pb-2'>Canicross</h1>
 		<p class='pb-4'>Canicross to dynamiczna dyscyplina sportowa z kategorii psich zaprzęgów, polegająca na biegu z psem,
-			upiętym na smyczy z amortyzatorem, łączącym się z pasem biodrowym. Twój pies biegnie z przodu, wspomagając cię
+			upiętym na smyczy z amortyzatorem, łączącym się z pasem biodrowym. Twój pies biegnie z przodu, wspomagając Cię
 			podczas biegu. Dla tych, którzy kochają biegać z psem, canicross to idealna forma aktywności. Nasze smycze z
 			amortyzatorem firmy Sali gwarantują bezpieczne i komfortowe doświadczenie dla Ciebie i Twojego pupila. Wypożycz
 			nasz sprzęt canicrossowy i stwórz niesamowite wspomnienia.</p>
