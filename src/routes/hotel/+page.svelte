@@ -19,7 +19,8 @@
 		'img/hotel/hotel-4.webp',
 		'img/hotel/hotel-5.webp',
 		'img/hotel/hotel-7.webp',
-		'img/hotel/hotel-6.webp'
+		'img/hotel/hotel-6.webp',
+		'img/hotel/hotel-8.webp'
 	];
 
 	function showModal() {
