@@ -1,4 +1,4 @@
-<div id='behawiorysta' class='relative h-[900px] xl:h-[700px]'>
+<div id='behawiorysta' class='relative h-[1100px] xl:h-[700px]'>
 	<div
 		class='w-full border-black text-center font-gilroySemiBold text-2xl xl:absolute xl:left-80 xl:top-20 xl:w-auto'>
 		Kto prowadzi?
@@ -22,13 +22,14 @@
 		class='absolute top-[570px] xl:top-[350px] xl:w-[500px] xl:right-[104px] border-black'>
 		<div
 			class='m-auto w-3/4 border-black text-center font-gilroyMedium xl:text-left text-sm tracking-wider xl:w-auto xl:m-0 xl:font-gilroy'>
-			Psy to moja pasja i wielka miłość. Cały czas doskonale moje umiejętności i
-			rozwijam się, aby móc się nimi zajmować jak najlepiej. Jednocześnie chce
-			pomagać właścicielom, by mogli nawiązywać dobre relacje ze swoimi pupilami
-			i cieszyć się z każdej chwili spędzonej razem.
-			<br /><br />Prywatnie uwielbiam spacery, w szczególności górskie, kawę
-			najlepiej taką w psim towarzystwie doprawioną nutką sierści. Rozgość się
-			na naszej stronie. Fajnie, że jesteś!
+			Doświadczony trener psów, zoopsycholog, wykładowca w Chata Leona oraz certyfikowany groomer. Zapewniam kompleksowe
+			usługi szkoleniowe, hotelowe, pielęgnacyjne dla psów, dbając o ich dobrostan i rozwój. Zaufaj mojemu
+			doświadczeniu, a Twoj pies będzie w najlepszych rękach!
+			<br /><br />Psy to moja pasja i wielka miłość. Cały czas doskonale moje umiejętności i rozwijam się, aby móc się
+			nimi zajmować jak najlepiej. Jednocześnie chce pomagać opiekunom, by mogli nawiązywać dobre relacje ze swoimi
+			pupilami i cieszyć się z każdej chwili spędzonej razem.
+			<br /><br />Prywatnie uwielbiam spacery, w szczególności górskie, kawę najlepiej taką w psim towarzystwie
+			doprawioną nutką sierści. Rozgość się na naszej stronie. Fajnie, że jesteś!l
 		</div>
 	</div>
 </div>
