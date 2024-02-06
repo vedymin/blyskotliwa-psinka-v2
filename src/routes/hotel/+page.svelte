@@ -56,17 +56,26 @@
 			zmęczenie fizyczne i umysłowe, dostosowując aktywności do indywidualnych potrzeb psa. Zdrowie i dobrostan każdego
 			podopiecznego są dla nas najwyższym priorytetem, dlatego też zapewniamy opiekę weterynaryjną kiedy zaistnieje taka
 			potrzeba.</p>
-		<h3 class='font-gilroySemiBold text-xl'>Wizyta zapoznawcza</h3>
-		<p class='pb-4'>Oferujemy możliwość wizyty zapoznawczej! Przyjedź z psem przed planowanym pobytem, aby poznał nową
-			przestrzeń i
-			zaznajomił się z naszym personelem. Wizyta pozwoli zminimalizować stres, a pupil zostanie w miejscu oraz pod
-			opieką osób, które już zna. To również czas dla Ciebie na zapoznanie z nami oraz rozwianie wszelkich
-			wątpliwości.</p>
-		<p class='pb-6'>Zaufaj nam – tu twój pies nie tylko znajdzie schronienie, ale też doświadczy wyjątkowej opieki,
-			pasjonatów oraz trenerów psów, dostosowanej do jego unikalnych potrzeb. </p>
+		<h3 class='font-gilroySemiBold text-xl'>Koszt i czas trwania:</h3>
+		<ul class='list-disc ml-6 mb-6 text-left'>
+			<li>Cena pobytu psa za dobę to 70zł.</li>
+			<li>Doba hotelowa jest liczona od momentu pozostawienia psiaka do tej samej godziny dnia
+				następnego.</li>
+			<li>Dwa psy z jednego domu w jednym boksie to 100zł za dzień pobytu.</li>
+			<li>W okresie świątecznym 24-26.12, 31.12- 01.01 oraz 30.03- 1.04 cena pobytu psa to 120zł za dobę.</li>
+		</ul>
+
 	</div>
 </div>
 <div class='mx-20 text-center xl:text-left'>
+	<h1 class='font-gilroySemiBold text-2xl'>Wizyta zapoznawcza</h1>
+	<p class='pb-4'>Oferujemy możliwość wizyty zapoznawczej! Przyjedź z psem przed planowanym pobytem, aby poznał nową
+		przestrzeń i
+		zaznajomił się z naszym personelem. Wizyta pozwoli zminimalizować stres, a pupil zostanie w miejscu oraz pod
+		opieką osób, które już zna. To również czas dla Ciebie na zapoznanie z nami oraz rozwianie wszelkich
+		wątpliwości.</p>
+	<p class='pb-6'>Zaufaj nam – tu twój pies nie tylko znajdzie schronienie, ale też doświadczy wyjątkowej opieki,
+		pasjonatów oraz trenerów psów, dostosowanej do jego unikalnych potrzeb. </p>
 	<h1 class='font-gilroySemiBold text-2xl pb-4'>Jak przygotować psa do hotelu?</h1>
 	<p class='pb-2'>
 		Zanim oddasz psa do naszego hotelu, upewnij się, że spakowałeś wszystko, co sprawi, że twój psiak poczuje się jak w
