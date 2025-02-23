@@ -32,7 +32,7 @@
 </footer>
 <Modal bind:shown={modal}>
 	<div class='flex flex-col items-center text-center'>
-		<img src='img/eu-logos.png' />
+		<img src='/img/eu-logos.png' />
 		<h1>
 			Europejski Fundusz Rolny na rzecz Rozwoju Obszarów Wiejskich: Europa
 			inwestująca w obszary wiejskie

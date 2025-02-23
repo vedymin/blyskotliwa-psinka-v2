@@ -30,12 +30,14 @@
 	<div
 		class='m-auto h-16 w-20 border-black bg-contain bg-no-repeat xl:absolute left-[900px] top-52 invisible xl:visible'
 		style="background-image: url('/svg/strzalka2.svg'); "></div>
-	<button
-		class='absolute left-[400px] top-60 h-[50px] w-[170px] rounded-full bg-white font-gilroy
+	<a href='/hotel'>
+		<button
+			class='absolute left-[400px] top-60 h-[50px] w-[170px] rounded-full bg-white font-gilroy
           tracking-wider shadow-button transition-all hover:shadow-button-hover active:scale-95 active:shadow-button
           xl:left-[1000px] xl:top-52 xl:text-sm xl:hover:scale-105 xl:hover:bg-blue xl:active:scale-100
 					invisible xl:visible'>jak to wygląda?
-	</button>
+		</button>
+	</a>
 	<div
 		class='w-full border-black xl:absolute xl:w-auto xl:pt-0 xl:left-[550px] xl:top-80'>
 		<svg class='m-auto' height={circleSize} width={circleSize}>

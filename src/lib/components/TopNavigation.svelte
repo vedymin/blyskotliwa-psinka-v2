@@ -16,7 +16,7 @@
 		style="background-image: url('/img/logo-min.png'); "></div>
 </a>
 <nav
-	class='invisible xl:visible flex flex-row gap-2 font-gilroyMedium justify-end w-full p-10 text-xl'>
+	class='invisible xl:visible flex flex-row gap-20 font-gilroyMedium justify-end w-full p-10 text-xl'>
 	<NavigationMenu />
 </nav>
 <div
