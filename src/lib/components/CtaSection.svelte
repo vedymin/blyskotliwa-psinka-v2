@@ -11,7 +11,7 @@
 	<div
 		class='m-auto -mt-10 h-[200px] w-full border-black bg-contain bg-center bg-no-repeat xl:absolute xl:w-[300px] xl:h-[300px]
 				xl:left-40 xl:top-32'
-		style="background-image: url('/img/dog-6.webp'); " />
+		style="background-image: url('/img/dog-6.webp'); "></div>
 	<div
 		class='w-full border-black pt-12 xl:absolute xl:w-auto xl:left-[550px] xl:top-40'>
 		<svg class='m-auto' height={circleSize} width={circleSize}>
@@ -29,7 +29,7 @@
 	</div>
 	<div
 		class='m-auto h-16 w-20 border-black bg-contain bg-no-repeat xl:absolute left-[900px] top-52 invisible xl:visible'
-		style="background-image: url('/svg/strzalka2.svg'); " />
+		style="background-image: url('/svg/strzalka2.svg'); "></div>
 	<button
 		class='absolute left-[400px] top-60 h-[50px] w-[170px] rounded-full bg-white font-gilroy
           tracking-wider shadow-button transition-all hover:shadow-button-hover active:scale-95 active:shadow-button
@@ -53,7 +53,7 @@
 	</div>
 	<div
 		class='m-auto h-16 -scale-y-100 rotate-[40deg] w-20 border-black bg-contain bg-no-repeat xl:absolute left-[820px] top-[350px] invisible xl:visible'
-		style="background-image: url('/svg/strzalka2.svg'); " />
+		style="background-image: url('/svg/strzalka2.svg'); "></div>
 	<div
 		id='kontakt'
 		class='w-full border-black pt-6 text-center font-gilroySemiBold text-2xl xl:absolute xl:w-auto xl:right-[200px] xl:top-[400px]'>
@@ -61,7 +61,7 @@
 	</div>
 	<div
 		class='m-auto mt-8 h-16 w-20 -scale-x-100 border-black bg-contain bg-no-repeat xl:absolute xl:right-[150px] xl:top-[480px]'
-		style="background-image: url('/svg/strzalka.svg'); " />
+		style="background-image: url('/svg/strzalka.svg'); "></div>
 	<div
 		class='m-auto flex w-max flex-col items-start pt-8 font-newSpirit text-4xl leading-tight xl:absolute xl:invisible'>
 		<div>Odpowiedzi</div>

@@ -5,7 +5,7 @@
 	</div>
 	<div
 		class='m-auto mt-10 h-16 w-20 border-black bg-contain bg-no-repeat xl:absolute xl:left-56 xl:top-28 xl:mt-0'
-		style="background-image: url('/svg/strzalka.svg'); " />
+		style="background-image: url('/svg/strzalka.svg'); "></div>
 	<div
 		class='flex flex-col border-black pl-20 pt-8 font-newSpirit text-4xl leading-tight xl:absolute xl:pt-0 xl:pl-0 xl:left-40 xl:top-[270px] z-10 xl:text-6xl'>
 		<div>Jestem</div>
@@ -13,7 +13,7 @@
 	</div>
 	<div
 		class='m-auto -mt-10 h-[200px] w-full border-black bg-contain bg-center bg-no-repeat xl:absolute xl:left-60 xl:w-[200px] xl:top-[370px]'
-		style="background-image: url('/img/ola.webp'); " />
+		style="background-image: url('/img/ola.webp'); "></div>
 	<div
 		class='absolute top-[500px] w-full border-black text-center font-gilroySemiBold text-2xl xl:right-[342px] xl:top-[280px] xl:w-auto xl:text-xl'>
 		Trener & behawiorysta psów

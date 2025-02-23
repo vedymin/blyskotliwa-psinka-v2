@@ -15,7 +15,7 @@
 		</div>
 		<div
 			class='aspect-auto h-[200px] xl:h-[400px] xl:w-[400px] w-[200px] mt-32 border-black bg-cover bg-[-150px_center] xl:bg-[-300px_center] bg-no-repeat rounded-full'
-			style="background-image: url({canicross}); " />
+			style="background-image: url({canicross}); "></div>
 	</div>
 	<div class='flex-1 border-black mt-10 xl:mt-0 text-center xl:text-left'>
 		<p class='pb-4'>Witaj w naszej wypożyczalni sprzętu sportowego, gdzie dogtrekking i

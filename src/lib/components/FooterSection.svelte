@@ -3,7 +3,7 @@
 	import Modal from '$lib/components/Modal.svelte';
 	import NavigationMenu from '$lib/components/NavigationMenu.svelte';
 
-	let modal = false;
+	let modal = $state(false);
 
 	function showModal() {
 		modal = true;

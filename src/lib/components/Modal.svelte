@@ -1,7 +1,10 @@
 <script>
+  import { self } from 'svelte/legacy';
+
 	import { fly } from 'svelte/transition';
 
-	export let shown = false;
+  /** @type {{shown?: boolean, children?: import('svelte').Snippet}} */
+  let { shown = $bindable(false), children } = $props();
 
 	export function show() {
 		shown = true;
@@ -13,19 +16,19 @@
 </script>
 
 <svelte:window
-	on:keydown={(e) => {
+	onkeydown={(e) => {
     if (e.keyCode == 27) {
       hideModal();
     }
   }} />
 
 {#if shown}
-	<div class='modal-wrapper z-50' transition:fly={{ y: 800, duration: 1000 }} on:click|self={hideModal}>
+	<div class='modal-wrapper z-50' transition:fly={{ y: 800, duration: 1000 }} onclick={self(hideModal)}>
 		<div class='modal relative'>
       <span
 				class='cursor-pointer text-4xl absolute top-0 right-2'
-				on:click={() => hideModal()}>&times;</span>
-			<slot />
+				onclick={() => hideModal()}>&times;</span>
+			{@render children?.()}
 		</div>
 	</div>
 {/if}

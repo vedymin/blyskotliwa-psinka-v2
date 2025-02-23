@@ -11,7 +11,7 @@
 					xl:absolute xl:left-[690px] xl:top-[250px]'>
 		<div
 			class='m-auto h-6 w-6 self-center border-black bg-contain bg-no-repeat'
-			style="background-image: url('/svg/person.svg'); " />
+			style="background-image: url('/svg/person.svg'); "></div>
 		<div class='flex flex-col'>
 			<a href='tel:+48739478527'>+48 739 478 527</a>
 			<a href='mailto:kontakt@blyskotliwapsinka.pl'
@@ -19,7 +19,7 @@
 		</div>
 		<div
 			class='m-auto h-6 w-5 self-center border-black bg-contain bg-no-repeat'
-			style="background-image: url('/svg/pin.svg'); " />
+			style="background-image: url('/svg/pin.svg'); "></div>
 		<div class='flex flex-col'>
 			<a
 				class='adres'
@@ -33,5 +33,5 @@
 	<div
 		class='m-auto mt-10 h-[500px] w-full border-black bg-contain bg-center bg-no-repeat
 xl:w-[600px] xl:m-0 xl:top-40 '
-		style="background-image: url('/img/dog-7.webp'); " />
+		style="background-image: url('/img/dog-7.webp'); "></div>
 </div>

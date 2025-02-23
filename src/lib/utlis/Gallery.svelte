@@ -1,22 +1,25 @@
 <script>
+	import { run } from 'svelte/legacy';
+
 	import { onMount, createEventDispatcher } from 'svelte';
 	import { tick } from 'svelte';
 
-	export let gap = 10;
-	export let maxColumnWidth = 250;
-	export let hover = false;
-	export let loading;
+	/** @type {{gap?: number, maxColumnWidth?: number, hover?: boolean, loading: any, children?: import('svelte').Snippet}} */
+	let {
+		gap = 10,
+		maxColumnWidth = 250,
+		hover = false,
+		loading,
+		children
+	} = $props();
 
 	const dispatch = createEventDispatcher();
 
-	let slotHolder = null;
-	let columns = [];
-	let galleryWidth = 0;
-	let columnCount = 0;
+	let slotHolder = $state(null);
+	let columns = $state([]);
+	let galleryWidth = $state(0);
+	let columnCount = $state(0);
 
-	$: columnCount = parseInt(galleryWidth / maxColumnWidth) || 1;
-	$: columnCount && Draw();
-	$: galleryStyle = `grid-template-columns: repeat(${columnCount}, 1fr); --gap: ${gap}px`;
 
 	onMount(Draw);
 
@@ -45,15 +48,22 @@
 			];
 		}
 	}
+	run(() => {
+		columnCount = parseInt(galleryWidth / maxColumnWidth) || 1;
+	});
+	run(() => {
+		columnCount && Draw();
+	});
+	let galleryStyle = $derived(`grid-template-columns: repeat(${columnCount}, 1fr); --gap: ${gap}px`);
 </script>
 
 <div
 	id='slotHolder'
 	bind:this={slotHolder}
-	on:DOMNodeInserted={Draw}
-	on:DOMNodeRemoved={Draw}
+	onDOMNodeInserted={Draw}
+	onDOMNodeRemoved={Draw}
 >
-	<slot />
+	{@render children?.()}
 </div>
 
 {#if columns}
@@ -64,7 +74,7 @@
 					<img
 						src={img.src}
 						alt={img.alt}
-						on:click={HandleClick}
+						onclick={HandleClick}
 						class="{hover === true ? "img-hover" : ""} {img.class}"
                         loading={loading}
                     />

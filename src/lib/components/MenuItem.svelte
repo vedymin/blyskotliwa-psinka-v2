@@ -1,9 +1,12 @@
 <script>
+	import { createBubbler } from 'svelte/legacy';
+
+	const bubble = createBubbler();
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 
-	export let href = '';
-	export let text = 'edit me';
+	/** @type {{href?: string, text?: string}} */
+	let { href = '', text = 'edit me' } = $props();
 	// export let noSmooth = false;
 
 	// function scrollIntoView({ target }) {
@@ -54,7 +57,7 @@
 	// }
 </script>
 
-<div class='border-transparent border-b-2 hover:border-black' on:click>
+<div class='border-transparent border-b-2 hover:border-black' onclick={bubble('click')}>
 	<a
 		class='cursor-pointer'
 		href={href ? href : null}

@@ -3,8 +3,8 @@
 	import Gallery from '$lib/utlis/Gallery.svelte';
 	import Modal from '$lib/components/Modal.svelte';
 
-	let modal = false;
-	let image = '';
+	let modal = $state(false);
+	let image = $state('');
 
 	function handleClick(e) {
 		image = e.detail.src;
@@ -35,7 +35,7 @@
 		</div>
 		<div
 			class='aspect-auto h-[200px] xl:h-[400px] xl:w-[400px] w-[300px] mt-2 border-black bg-contain bg-center bg-no-repeat '
-			style="background-image: url('/img/dog-szkolenia.webp'); " />
+			style="background-image: url('/img/dog-szkolenia.webp'); "></div>
 	</div>
 	<div class='flex-1 border-black mt-10 xl:mt-0 text-center xl:text-left'>
 		<h1 class='font-gilroySemiBold text-2xl pb-2'>Zapraszamy do naszego hotelu dla psów! 🐾 </h1>

@@ -4,7 +4,8 @@
 	import { cubicInOut } from 'svelte/easing';
 	import NavigationMenu from '$lib/components/NavigationMenu.svelte';
 
-	export let mobileMenuIsShown = true;
+	/** @type {{mobileMenuIsShown?: boolean}} */
+	let { mobileMenuIsShown = $bindable(true) } = $props();
 
 	function closeMenu(event) {
 		if (event.srcElement.tagName == 'A') {
@@ -18,7 +19,7 @@
 		transition:fly={{ y: -500, duration: 800, easing: cubicInOut }}
 		class='absolute top-0 w-full h-[100vh] bg-white drop-shadow z-50'>
 		<svg
-			on:click={() => (mobileMenuIsShown = false)}
+			onclick={() => (mobileMenuIsShown = false)}
 			xmlns='http://www.w3.org/2000/svg'
 			fill='none'
 			viewBox='0 0 24 24'
@@ -32,7 +33,7 @@
 		</svg>
 		<nav
 			class='flex flex-col items-start font-gilroyMedium gap-8 tracking-wider text-xl pb-8 pl-16 mt-48'
-			on:click={closeMenu}>
+			onclick={closeMenu}>
 			<NavigationMenu/>
 		</nav>
 	</div>

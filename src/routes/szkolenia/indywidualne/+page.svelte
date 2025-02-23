@@ -6,7 +6,7 @@
 		</div>
 		<div
 			class='aspect-auto h-[200px] xl:h-[400px] xl:w-[400px] w-[300px] mt-12 border-black bg-contain bg-center bg-no-repeat '
-			style="background-image: url('/img/dog-szkolenia.webp'); " />
+			style="background-image: url('/img/dog-szkolenia.webp'); "></div>
 	</div>
 	<div class='flex-1 border-black mt-10 xl:mt-0 text-center xl:text-left'>
 		<h1 class='font-gilroySemiBold text-2xl pb-2'>Trening Indywidualny dla Twojego Psa</h1>

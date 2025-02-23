@@ -1,10 +1,14 @@
 <script>
 	import { Route, Timer } from 'lucide-svelte';
 
-	export let distance = '0.0km';
-	export let duration = '0h 0min';
-	export let title = '';
-	export let image = '';
+	/** @type {{distance?: string, duration?: string, title?: string, image?: string, children?: import('svelte').Snippet}} */
+	let {
+		distance = '0.0km',
+		duration = '0h 0min',
+		title = '',
+		image = '',
+		children
+	} = $props();
 </script>
 <div class='flex xl:flex-row mb-10 flex-col justify-center'>
 	<img src={image} class='w-[600px] xl:mx-10'>
@@ -19,7 +23,7 @@
 			<span class='text-xl'>{duration}</span>
 		</div>
 		<div class='pt-6 text-justify xl:w-[80%] justify-center xl:justify-normal'>
-			<slot></slot>
+			{@render children?.()}
 		</div>
 	</div>
 </div>

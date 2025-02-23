@@ -7,10 +7,10 @@
 	</div>
 	<div
 		class='visible xl:invisible absolute top-[150px] max-xl:m-auto h-[309px] w-full border-black bg-contain bg-center bg-no-repeat xl:h-[600px] xl:right-12 xl:w-[600px] xl:top-[50px]'
-		style="background-image: url('/img/dog-4.webp'); " />
+		style="background-image: url('/img/dog-4.webp'); "></div>
 	<div
 		class='xl:visible invisible absolute h-[600px] right-12 w-[600px] top-[100px] bg-contain bg-center bg-no-repeat'
-		style="background-image: url('/img/dog-4-xl.webp'); " />
+		style="background-image: url('/img/dog-4-xl.webp'); "></div>
 	<div
 		class='absolute top-[530px] w-full border-black text-center font-gilroySemiBold text-2xl xl:left-20 xl:w-auto xl:top-48'>
 		Dla kogo?
