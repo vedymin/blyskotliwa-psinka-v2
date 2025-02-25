@@ -22,10 +22,6 @@
 		'img/hotel/hotel-6.webp',
 		'img/hotel/hotel-8.webp'
 	];
-
-	function showModal() {
-		modal = true;
-	}
 </script>
 
 <div class='border-black p-10 px-20 flex xl:flex-row flex-col text-center xl:text-left'>
@@ -39,52 +35,52 @@
 	</div>
 	<div class='flex-1 border-black mt-10 xl:mt-0 text-center xl:text-left'>
 		<h1 class='font-gilroySemiBold text-2xl pb-2'>Zapraszamy do naszego hotelu dla psów! 🐾 </h1>
-		<p class='pb-4'>Wybierasz się na wakacje, delegację lub weekend? Potrzebujesz odpowiedniej opieki dla Twojego psa?
+		<p class='pb-8 text-justify'>Wybierasz się na wakacje, delegację lub na weekend? Potrzebujesz odpowiedniej opieki dla Twojego psa?
 			Sprawdź co
 			mamy dla Ciebie!</p>
 		<h3 class='font-gilroySemiBold text-xl'>Jak wygląda nasz hotel?</h3>
-		<p class='pb-4'>Hotel znajduję się w miejscu naszego zamieszkania, a jego kameralna forma pozwala nam na poświęcenie
+		<p class='pb-8 text-justify'>Hotel znajduję się w miejscu naszego zamieszkania, a jego kameralna forma pozwala nam na poświęcenie
 			odpowiedniej
 			ilości czasu i uwagi każdemu naszemu podopiecznemu. Dla naszych gości przygotowaliśmy boksy wewnętrzne, a cały
 			budynek posiada ogrzewanie podłogowe, by zapewnić komfort nawet w najchłodniejsze dni. Psiaki mogą wedle upodobań
 			skorzystać z ogrodzonego terenu, który zapewnia bezpieczne miejsce do swobodnego biegania i zabaw lub spędzać czas
 			wewnątrz chroniąc się przed zimnem lub deszczem.</p>
 		<h3 class='font-gilroySemiBold text-xl'>Dostosowany do Potrzeb</h3>
-		<p class='pb-4'>Pobyt w hotelu rozpoczyna się od zebrania szczegółowych informacji na temat Twojego psa oraz jego
+		<p class='pb-4 text-justify'>Pobyt w hotelu rozpoczyna się od zebrania szczegółowych informacji na temat Twojego psa oraz jego
 			codziennej
 			rutyny. Dzięki temu możemy dostosować się do jego rytmu dnia oraz poznać jego upodobania. Podczas pobytu dbamy o
 			zmęczenie fizyczne i umysłowe, dostosowując aktywności do indywidualnych potrzeb psa. Zdrowie i dobrostan każdego
 			podopiecznego są dla nas najwyższym priorytetem, dlatego też zapewniamy opiekę weterynaryjną kiedy zaistnieje taka
 			potrzeba.</p>
-		<h3 class='font-gilroySemiBold text-xl'>Koszt i czas trwania:</h3>
-		<ul class='list-disc ml-6 mb-6 text-left'>
-			<li>Cena pobytu psa za dobę to 70zł.</li>
-			<li>Doba hotelowa jest liczona od momentu pozostawienia psiaka do tej samej godziny dnia
-				następnego.</li>
-			<li>Dwa psy z jednego domu w jednym boksie to 100zł za dzień pobytu.</li>
-			<li>W okresie świątecznym 24-26.12, 31.12- 01.01 oraz 30.03- 1.04 cena pobytu psa to 120zł za dobę.</li>
-		</ul>
 
 	</div>
 </div>
 <div class='mx-20 text-center xl:text-left'>
-	<h1 class='font-gilroySemiBold text-2xl'>Wizyta zapoznawcza</h1>
-	<p class='pb-4'>Oferujemy możliwość wizyty zapoznawczej! Przyjedź z psem przed planowanym pobytem, aby poznał nową
+	<h3 class='font-gilroySemiBold text-2xl'>Koszt i czas trwania:</h3>
+	<ul class='list-disc ml-6 mb-16 xl:mb-8 text-justify'>
+		<li>Cena pobytu psa za dobę to 70zł.</li>
+		<li>Doba hotelowa jest liczona od momentu pozostawienia psiaka do tej samej godziny dnia
+			następnego.</li>
+		<li>Dwa psy z jednego domu w jednym boksie to 100zł za dzień pobytu.</li>
+		<li>W okresie świątecznym 24-26.12, 31.12- 01.01 oraz 30.03- 1.04 cena pobytu psa to 120zł za dobę.</li>
+	</ul>
+	<h1 class='font-gilroySemiBold text-2xl pb-2'>Wizyta zapoznawcza</h1>
+	<p class='pb-4 text-justify'>Oferujemy możliwość wizyty zapoznawczej! Przyjedź z psem przed planowanym pobytem, aby poznał nową
 		przestrzeń i
 		zaznajomił się z naszym personelem. Wizyta pozwoli zminimalizować stres, a pupil zostanie w miejscu oraz pod
 		opieką osób, które już zna. To również czas dla Ciebie na zapoznanie z nami oraz rozwianie wszelkich
 		wątpliwości.</p>
-	<p class='pb-6'>Zaufaj nam – tu twój pies nie tylko znajdzie schronienie, ale też doświadczy wyjątkowej opieki,
+	<p class='pb-8 text-justify'>Zaufaj nam – tu twój pies nie tylko znajdzie schronienie, ale też doświadczy wyjątkowej opieki,
 		pasjonatów oraz trenerów psów, dostosowanej do jego unikalnych potrzeb. </p>
 	<h1 class='font-gilroySemiBold text-2xl pb-4'>Jak przygotować psa do hotelu?</h1>
-	<p class='pb-2'>
+	<p class='pb-2 text-justify'>
 		Zanim oddasz psa do naszego hotelu, upewnij się, że spakowałeś wszystko, co sprawi, że twój psiak poczuje się jak w
 		domu. Weź legowisko lub ulubiony kocyk, którego zapach pomoże psu poczuć się jak u siebie, ulubione zabawki,
 		przygotuj
 		też odpowiednią ilość ulubionej karmy.
 	</p>
 
-	<p class='pb-2'>
+	<p class='pb-4 text-justify'>
 		Dbamy o bezpieczeństwo wszystkich naszych gości, dlatego ważne jest, aby przynieść ze sobą aktualne dokumenty
 		potwierdzające szczepienia przeciwko wściekliźnie oraz chorobom zakaźnym, a także odrobaczenie potwierdzone przez
 		lekarza weterynarii lub badanie kału na obecność pasożytów. Warto też zabezpieczyć pupila przeciwko pasożytom
@@ -92,25 +88,25 @@
 		przebywających pod naszą opieką.
 	</p>
 
-	<p class='pb-2'>
+	<p class='pb-4 text-justify'>
 		W naszym hotelu stawiamy na aktywność fizyczną i umysłową, dlatego zachęcamy do zabrania ulubionych smakołyków i
 		gryzaków, które sprawią, że czas spędzony u nas będzie jeszcze bardziej radosny. Każdego psiaka traktujemy
 		indywidualnie, a oferowane mu zajęcia są dostosowane do jego upodobań i charakteru.
 	</p>
 
-	<p class='pb-2'>
+	<p class='pb-4 text-justify'>
 		Nie zapomnij również o smyczy, szelkach lub obroży odpowiednio dopasowanych, tak by psiak podczas spaceru nie mógł
 		ich
 		zdjąć– to istotne, abyśmy mogli wygodnie spacerować z twoim pupilem i zadbać o aktywność fizyczną.
 	</p>
 
-	<p class='pb-2'>
+	<p class='pb-4 text-justify'>
 		Przygotowanie się do pobytu w naszym hotelu dla psów to gwarancja, że Twój pies spędzi czas w przyjemny i bezpieczny
 		sposób. Nasz zespół pasjonatów zwierząt gwarantuje, że każdy pies otrzyma nie tylko profesjonalną opiekę, ale także
 		mnóstwo miłości i uwagi.
 	</p>
 
-	<p class='pb-6'>
+	<p class='pb-8'>
 		Liczymy na miłe chwile spędzone z Twoim pupilem!
 	</p>
 
@@ -134,6 +130,6 @@
 
 <Modal bind:shown={modal}>
 	<div class='flex flex-col items-center text-center'>
-		<img src={image} class='h-[80vh] p-4' />
+		<img src={image} class='max-h-[80vh] p-4' />
 	</div>
 </Modal>
