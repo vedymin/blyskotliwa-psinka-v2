@@ -1,3 +1,7 @@
+<script>
+	import Button from '$lib/components/utils/Button.svelte';
+</script>
+
 <div id='szkolenia' class='relative h-[1000px] pt-16 xl:h-[550px]'>
 	<div
 		class='absolute right-10 z-10 flex flex-col items-end border-black font-newSpirit text-4xl leading-tight xl:text-6xl xl:right-24 xl:-top-[50px]'>
@@ -25,42 +29,12 @@
 	</div>
 	<div
 		class='absolute border-black items-center w-full flex flex-col xl:flex-row top-[700px] gap-5 xl:w-auto xl:top-[390px] xl:left-20 xl:gap-8'>
-		<a href='/szkolenia/konsultacja'>
-			<button
-				class='left-12 top-56 h-[50px] w-[210px] rounded-full bg-white font-gilroy
-          tracking-wider shadow-button transition-all hover:shadow-button-hover active:scale-95 active:shadow-button
-          xl:left-96 xl:top-72 xl:text-sm xl:hover:scale-105 xl:hover:bg-gold xl:active:scale-100'
-			>konsultacje
-			</button>
-		</a>
-		<a href='/szkolenia'>
-			<button
-				class='h-[50px] w-[210px] rounded-full bg-white font-gilroy
-          tracking-wider shadow-button transition-all hover:shadow-button-hover active:scale-95 active:shadow-button
-          xl:left-96 xl:top-72 xl:text-sm xl:hover:scale-105 xl:hover:bg-gold xl:active:scale-100'
-			>
-				zajęcia indywidualne
-			</button>
-		</a>
+		<Button title='konsultacje' href='/szkolenia/konsultacja'></Button>
+		<Button title='zajęcia indywidualne' href='/szkolenia'></Button>
 	</div>
 	<div
 		class='absolute border-black items-center w-full flex flex-col xl:flex-row top-[840px] gap-5 xl:w-auto xl:top-[460px] xl:left-20 xl:gap-8'>
-		<a href='/szkolenia/grupowe-dla-starszakow'>
-			<button
-				class='left-12 top-56 h-[50px] w-[210px] rounded-full bg-white font-gilroy
-          tracking-wider shadow-button transition-all hover:shadow-button-hover active:scale-95 active:shadow-button
-          xl:left-96 xl:top-72 xl:text-sm xl:hover:scale-105 xl:hover:bg-gold xl:active:scale-100'
-			>grupowe starszaków
-			</button>
-		</a>
-		<a href='/szkolenia/grupowe-dla-szczeniat'>
-			<button
-				class='h-[50px] w-[210px] rounded-full bg-white font-gilroy
-          tracking-wider shadow-button transition-all hover:shadow-button-hover active:scale-95 active:shadow-button
-          xl:left-96 xl:top-72 xl:text-sm xl:hover:scale-105 xl:hover:bg-gold xl:active:scale-100'
-			>
-				grupowe szczeniaków
-			</button>
-		</a>
+		<Button title='grupowe starszaków' href='/szkolenia/grupowe-dla-starszakow'></Button>
+		<Button title='grupowe szczeniąt' href='/szkolenia/grupowe-dla-szczeniat'></Button>
 	</div>
 </div>
